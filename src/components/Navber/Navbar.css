@@ -1,0 +1,22 @@
+nav .container .logo a img {
+     width: 195px;
+     height: 45px;
+}
+nav .container .links li a {
+     color: #111111;
+     padding: 10px 0;
+     font-weight: 700;
+     transition: 0.5s;
+}
+nav .container .links li a:hover {
+     color: #fb8516;
+     border-bottom: 2px solid #fb8516 ;
+     opacity: 100%;
+}
+nav .container .bar {
+     transition: 0.5s;
+     cursor: pointer;
+}
+nav .container .bar:hover {
+     color: #259bca;
+}

@@ -1,0 +1,94 @@
+.about-us .the-container  {
+display: flex;
+background-color: rgb(52, 52, 211);
+}
+.about-us .the-container .experience  {
+     padding: 133px 30px 133px 30px ;
+     background-color: #fb8516;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     text-align: center;
+}
+.about-us .the-container .experience h3 {
+     font-size: 48px;
+     font-weight: 600;
+     color: white;
+     margin-bottom: 20px;
+}
+.about-us .the-container .experience p {
+     margin-bottom: 0;
+     font-size: 20px;
+     font-weight: 600;line-height: 36px;
+     color: white;
+}
+.about-us .the-container .experience button {
+     margin-top: 20px;
+     background-color: white;
+     padding: 12px 34px;
+     font-size: 17px;
+     font-weight: 500;
+}
+.about-us .the-container .experience button:hover {
+     background-color: transparent;
+     border: 2px solid white;
+     color: white;
+}
+.about-us .the-container .who-we-are {
+      padding: 133px 30px 133px 30px ;
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
+      flex-direction: column;
+     background-color: rgb(52, 52, 211);
+     text-align: center;
+}
+.about-us .the-container .who-we-are h3 {
+     font-size: 48px;
+     font-weight: 600;
+     color: white;
+     margin-bottom: 20px;
+}
+.about-us .the-container .who-we-are p {
+  margin-bottom: 0;
+     font-size: 20px;
+     font-weight: 600;line-height: 36px;
+     color: white;
+}
+.about-us .the-container .who-we-are button {
+     margin-top: 20px;
+     background-color: white;
+     padding: 12px 34px;
+     font-size: 17px;
+     font-weight: 500;
+}.about-us .the-container .who-we-are button:hover {
+     background-color: transparent;
+     border: 2px solid white;
+     color: white;
+}
+/*media queries*/
+/* mobile */
+@media (max-width: 767px) {
+     .about-us .the-container  {
+display: block;
+}
+.about-us .the-container .experience  {
+     padding: 60px 50px;
+     border-top-right-radius: 0px;
+     border-bottom-right-radius: 20px;
+}
+.about-us .the-container .experience h3 {
+     font-size: 30px;
+}
+.about-us .the-container .experience p {
+     font-size: 20px;
+}
+.about-us .the-container .who-we-are {
+      padding: 60px 50px ;
+}
+.about-us .the-container .who-we-are h3 {
+     font-size: 30px;
+}
+.about-us .the-container .who-we-are p {
+     font-size: 20px;
+}
+}
